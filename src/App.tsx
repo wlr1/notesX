@@ -1,9 +1,11 @@
-const App = () => {
-  const math = (a, b) => {
-    return a + b;
-  };
+import MainPage from "./Pages/MainPage";
 
-  return <div className="">{math(2, 5)}</div>;
+const App = () => {
+  return (
+    <>
+      <MainPage />
+    </>
+  );
 };
 
 export default App;
