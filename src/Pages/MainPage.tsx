@@ -12,7 +12,12 @@ const MainPage = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="pl-2 pt-3">
+      <div className="pl-2 pt-3 grid grid-cols-6 gap-2 ">
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
         <Cards />
       </div>
     </div>
