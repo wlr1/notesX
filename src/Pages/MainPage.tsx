@@ -18,7 +18,6 @@ const MainPage = () => {
         <Cards />
         <Cards />
         <Cards />
-        <Cards />
       </div>
     </div>
   );
